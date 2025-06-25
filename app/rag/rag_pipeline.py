@@ -21,7 +21,7 @@ Question:
 Answer:"""
     )
     return RetrievalQA.from_chain_type(
-        llm=ChatOpenAI(temperature=0, model="text-embedding-ada-002"),
+        llm=ChatOpenAI(temperature=0, model="gpt-3.5-turbo"),
         retriever=retriever,
         chain_type="stuff",
         chain_type_kwargs={"prompt": prompt_template},
