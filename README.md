@@ -1,3 +1,3 @@
-# aws-ai-practitioner
+# Museum RAG QA
 
-Repo to learn new concepts and prepare for the AWS AI Practitioner exam
+A question-answering system for museum data using Retrieval-Augmented Generation (RAG).
