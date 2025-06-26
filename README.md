@@ -8,7 +8,7 @@ This project demonstrates a Retrieval-Augmented Generation (RAG) pipeline using 
 
 ```
 .
-├── collection/              # ⚠️ Not committed – folder with source documents (.txt)
+├── collection/              # ⚠️ Not committed – folder with source documents (.json)
 ├── .env                     # ⚠️ Not committed – contains OpenAI API key
 ├── app/
 │   ├── data/
