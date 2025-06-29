@@ -1,0 +1,58 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# VS Code settings
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# Logs and debugging
+*.log
+
+# Python test cache
+.pytest_cache/
+.tox/
+coverage.*
+htmlcov/
+.cache/
+
+# ChromaDB vector store
+db/
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+
+# Pydantic compiled files
+*.schema.json
+
+# __init__.py artifacts
+*.pyc
+*.pyo
+
+# Pip wheels
+*.whl
+
+# Misc
+.mypy_cache/
+.dmypy.json
+
+#Skip learning files
+collection/
